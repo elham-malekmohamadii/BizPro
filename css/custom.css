@@ -1,0 +1,190 @@
+/******************* Fonts **********************/
+@font-face {
+    font-family: 'IRANSansWeb';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/IRANSansWeb(FaNum)_Light.eot');
+    src: url('../fonts/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/IRANSansWeb(FaNum)_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSansWeb(FaNum)_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+
+/******************* should have **********************/
+body {
+    font-family: "IRANSansWeb", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+* {
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+.center{
+    text-align: center;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    cursor: pointer;
+}
+.ltr {
+    direction: ltr;
+}
+
+.rtl {
+    direction: rtl;
+}
+.right {
+    float: right !important;
+}
+.left {
+    float: left !important;
+}
+
+.border{
+  border-bottom: 3px solid #e67e22;
+}
+.row-padded {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.grey{
+    background: #eee;
+}
+/******************* Header **********************/
+.top_header_area{
+  background: #34495e;
+  color: #fff;
+  padding: 15px 0;
+}
+.icon{
+  color: #fff;
+  padding: 0 2px;
+}
+.icon span:hover{
+  color:#e67e22;
+  transition: .5s;
+}
+.icon span{
+  font-size: 20px;
+}
+.inline{
+  display: inline-block;
+}
+.social_log_area{
+  text-align: left;
+  padding: 0 20px;
+}
+.login a{
+  font-size: 18px;
+  color: #fff !important;
+}
+.ion-log-in{
+  margin: 0 0 0 -10px;
+  border-right: 2px solid #fff;
+  padding: 0 14px
+}
+.ion-earth:hover {
+  color:#e67e22;
+}
+.login a:hover{
+  color:#e67e22;
+}
+.ion-earth{
+  font-size: 18px;
+  margin: 0 10px 0 0;
+  padding: 0 15px 0 0;
+  border-right: 2px solid #fff;
+}
+.navbar-inverse{
+  background: #fff;
+  border: none;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #e67e22;
+}
+.navbar-inverse .navbar-nav>li>a{
+  transition: .3s;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+  color:#e67e22;
+  background: none;
+}
+
+.search_button, .mainmenu{
+  display: inline-block;
+}
+.search_button{
+color:#2c3e50;
+margin: 12px 487px 0 0;
+font-size: 20px;
+padding: 10px 0;
+}
+.search_button i:hover{
+  color: #1abc9c;
+  transition: .3s;
+}
+.main_menu_area{
+  float: left;
+  padding: 10px 0;
+}
+.navbar-brand {
+    padding: 7px 15px;
+}
+.navbar {
+     margin-bottom: 0px;
+}
+/******************** Slide-SHOW *****************/
+.carousel-control:focus, .carousel-control:hover{
+  background: none;
+  opacity: 1;
+}
+.carousel-control{
+  background: none !important;
+  opacity: 1;
+}
+.icon-slide {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    color: #2c3e50;
+    opacity: 1 !important;
+    background: #fff;
+    width: 50px;
+    transition: .5s all ease;
+    height: 50px;
+    text-align: center;
+    line-height: 58px;
+    margin-top: -25px;
+}
+.icon-slide:hover{
+  color: #fff;
+  background: #23527c;
+}
+.ion-chevron-left{
+  left: 20px;
+}
+.ion-chevron-right{
+  right: 20px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    width: 100%;
+    height:auto;
+}
+/******************* Footer **********************/
+
+
+
+/******************* Responsive **********************/
+
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 425px) {
+
+}
